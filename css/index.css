@@ -97,25 +97,6 @@ header {
   display: flex;  
 }
 
-#facebook,
-#twitter,
-#instagram {
-    width: 10rem;
-    height: 10rem;
-}
-
-#facebook {
-    background-image: url("fa-brands fa-facebook");
-}
-
-#twitter {
-    background-image: url("https://fontawesome.com/icons/twitter?f=brands&s=solid");
-}
-
-#instagram {
-    background-image: url("https://fontawesome.com/icons/instagram?f=brands&s=solid");
-}
-
 /* spacers */
 .spacer {
     width: 100%;

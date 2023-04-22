@@ -100,7 +100,7 @@ header {
     flex-flow: column wrap;
     justify-content: center;
     align-items: center;
-    background: rgba(0,0,0,0.5);
+    background: rgba(0,0,0,0.6);
 }
 
 h1, h2, h3, p, a, label {
@@ -150,6 +150,17 @@ h1, h2, h3, p, a, label {
     height: 100vh;
     text-align: center;
     background-color: rgb(0, 4, 17);
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-images {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 3rem;
 }
 
 /* about us section */

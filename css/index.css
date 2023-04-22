@@ -100,11 +100,11 @@ header {
     flex-flow: column wrap;
     justify-content: center;
     align-items: center;
-    background: rgba(0,0,0,0.6);
+    background: rgba(0,4,17,0.8);
 }
 
 h1, h2, h3, p, a, label {
-    color: white;
+    color: rgb(225, 239, 230);
 }
 
 #header-nav {

@@ -91,10 +91,39 @@ header {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    text-align: center;
 }
 
-.social-icons {
-  display: flex;  
+.header-items {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#header-nav {
+    width: 100vw;
+}
+
+.navigation {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.social-nav {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 20vw;
+    margin: 0 auto;
+}
+
+.logos {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    width: 100%;
 }
 
 /* spacers */

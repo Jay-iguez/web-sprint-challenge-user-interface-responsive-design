@@ -49,6 +49,7 @@ table {
 
 * {
     box-sizing: border-box;
+    max-width: 100%;
 }
 
 html {
@@ -200,12 +201,48 @@ h1, h2, h3, h4, p, a, label {
     flex-flow: column wrap;
 }
 
+#allergy {
+    font-style: italic;
+}
+
 /* footer section */
 footer {
     width: 100%;
     height: 15vh;
     padding-top: 2.5vh;
     font-size: 3rem;
+    background-color: black;
+}
+
+.footer-content {
+    display: flex;
+    flex-flow: row-reverse wrap;
+    justify-content: space-between;
+}
+
+.footer-nav {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    width: 60%;
+    margin: 0 3rem;
+}
+
+.footer-email {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: start;
+}
+
+.footer-email-content {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    margin: 0 3rem;
+}
+
+.footer p {
+    align-self: flex-end;
 }
 
 /* mobile media query */

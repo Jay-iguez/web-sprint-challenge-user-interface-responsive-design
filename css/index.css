@@ -258,6 +258,7 @@ footer {
     flex-flow: row wrap;
     justify-content: space-between;
     width: 60%;
+    margin: 0 3rem;
 }
 
 .footer-email {
@@ -270,6 +271,7 @@ footer {
     display: flex;
     flex-flow: column wrap;
     align-items: center;
+    margin: 0 3rem;
 }
 
 .footer p {

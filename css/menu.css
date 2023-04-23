@@ -94,6 +94,44 @@ header {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    text-align: center;
+}
+
+.header-items {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0,4,17,0.8);
+}
+
+h1, h2, h3, p, a, label {
+    color: rgb(225, 239, 230);
+}
+
+#header-nav {
+    width: 100vw;
+}
+
+.navigation {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.social-nav {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 20vw;
+    margin: 0 auto;
+}
+
+.logos {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    width: 100%;
 }
 
 /* spacer */

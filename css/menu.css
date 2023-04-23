@@ -203,6 +203,7 @@ h1, h2, h3, h4, p, a, label {
 
 #allergy {
     font-style: italic;
+    color: rgb(225, 239, 230);
 }
 
 /* footer section */

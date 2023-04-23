@@ -217,7 +217,7 @@ footer {
 
 .footer-content {
     display: flex;
-    flex-flow: row-reverse wrap;
+    flex-flow: row wrap;
     justify-content: space-between;
 }
 
@@ -242,8 +242,10 @@ footer {
     margin: 0 3rem;
 }
 
-.footer p {
-    align-self: flex-end;
+.copyright {
+    display: flex;
+    justify-content: flex-end;
+    
 }
 
 /* mobile media query */

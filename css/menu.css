@@ -105,7 +105,7 @@ header {
     background: rgba(0,4,17,0.8);
 }
 
-h1, h2, h3, p, a, label {
+h1, h2, h3, h4, p, a, label {
     color: rgb(225, 239, 230);
 }
 
@@ -156,6 +156,48 @@ h1, h2, h3, p, a, label {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+}
+
+.menu-content {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    background: rgba(0,4,17,0.8);
+}
+
+.menu-content h2 {
+    margin: 3rem 0;
+}
+
+.menu-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.menu-section {
+    display: flex;
+    flex-flow: column wrap;
+    align-content: space-evenly;
+    margin: 2rem 10%;
+}
+
+.menu-item {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+    margin: 2rem 0;
+}
+
+.important-info {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.description {
+    display: flex;
+    flex-flow: column wrap;
 }
 
 /* footer section */

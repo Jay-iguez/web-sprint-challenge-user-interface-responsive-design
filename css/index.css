@@ -156,11 +156,18 @@ h1, h2, h3, p, a, label {
     align-items: center;
 }
 
+.gallery-content {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
 .grid-images {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
     gap: 3rem;
+    max-width: 80%;
 }
 
 /* about us section */

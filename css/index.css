@@ -383,12 +383,26 @@ footer {
 
     .footer-content {
         flex-flow: column wrap;
+        align-items: center;
+    }
+
+    .footer-email-content button {
+        width: 100%;
     }
 
     .footer-nav {
         flex-flow: column wrap;
         align-items: center;
         justify-content: center;
+        margin: 1rem;
     }
 
+    .copyright {
+        justify-content: center;
+    }
+
+    .copyright p {
+        text-align: center;
+        font-size: 2rem;
+    }
 }
